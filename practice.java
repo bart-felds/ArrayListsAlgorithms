@@ -49,13 +49,14 @@ public class practice {
          
 // WHILE LOOP
 
-        int index = 0;
-        while (index < names.size()) {
-            System.out.println(names.get(index)+"<- new code");
-            if(names.get(index).indexOf("Charlie") >= 0){
-              System.out.println(names.get(index));
-            index++;
-            }
-        }
+int index = 0;
+while (index < names.size()) {
+    System.out.println(names.get(index) + "<- new code");
+    if (names.get(index).indexOf("Charlie") >= 0) {
+        System.out.println(names.get(index));
     }
+    index++; 
+
+  }
+}
 }
