@@ -5,7 +5,7 @@ public class practicearray {
         for (int i = 0; i < array.length; i++) {
             int rowSum = 0;
             for (int j = 0; j < array[i].length; j++) {
-                rowSum += array[i][j];
+              rowSum += array[i][j];
             }
             System.out.println("Row " + i + " sum is " + rowSum);
             totalRowSum += rowSum;
